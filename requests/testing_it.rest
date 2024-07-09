@@ -7,6 +7,6 @@ POST http://localhost:3001/api/notes/
 Content-Type: application/json
 
 {
-    "content": "json parser from express morphs the body into a json object and attached it to the request",
-    "important": false
+    "content": "keep the db stuff in a separete module in a models folder",
+    "important": true
 }
